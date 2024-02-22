@@ -1,5 +1,35 @@
+body{
+    background-color: rgb(61, 114, 51)
+}
+
+table, td, th{
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
 h1{
-  font-family: 'Roboto-Condensed', Arial;
-  font-weight: bold;
-  text-align: center;
+    font-family: "Roboto";
+    text-align: center;
+    background-color: orange;
+    color: white;
+    padding: 20px;
+}
+
+h2{
+    font-family: "Roboto Condensed";
+    text-align: left;
+    color: white;
+
+}
+
+th{
+    background-color: rgb(224, 212, 35);
+    font-family: "Roboto";
+    font-weight: 900;
+}
+
+tr{
+    background-color: rgb(161, 204, 241);
+    font-family: "Roboto Condensed";
 }
