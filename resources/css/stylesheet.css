@@ -76,7 +76,7 @@ header{
   flex-direction: column;
   justify-content: center;
   margin: 50px auto;
-  background-image: url("/resources/images/img-locations-background.jpg");
+  background-image: url("../../images/img-locations-background.jpg");
   height: 500px;
   max-width: 1200px;
 }
