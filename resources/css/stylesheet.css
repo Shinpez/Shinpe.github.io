@@ -1,38 +1,104 @@
 body{
-    background-color: rgb(61, 114, 51)
-}
-
-table, td, th{
-    border: 1px solid;
-    border-collapse: collapse;
-    padding: 5px;
-}
-
-h1{
-    font-family: "Roboto";
+    font-family: "Helvetica";
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
     text-align: center;
-    background-color: orange;
-    color: white;
-    padding: 20px;
 }
 
-h2{
-    font-family: "Roboto Condensed";
-    text-align: left;
-    color: white;
-
+header{
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+    border-bottom: 1px solid;
+    border-color: seashell;
 }
 
-table{
+.logo{
+    max-height: 50px;
+    margin-left: 10px;
+}
+
+
+.menu a{
+    margin: 0 10px;
+    text-decoration: underline;
+    color: seashell;
+    
+}
+
+.banner{
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner img{
+    max-height: 700px;
+    width: 1200px;
+    object-fit: cover;
+}
+
+.banner div{
+    position: absolute;
+    width: 1200px;
+    background-color: black;
+}
+
+.month {
+    display: flex;
     margin: 0 auto;
-}
-th{
-    background-color: rgb(224, 212, 35);
-    font-family: "Roboto";
-    font-weight: 900;
+    justify-content: center;
+    max-width: 1000px;
+    flex-wrap: wrap;
+    
 }
 
-tr{
-    background-color: rgb(161, 204, 241);
-    font-family: "Roboto Condensed";
+
+.month-images img{
+    max-width: 300px;
+    max-height: 200px;
+    object-fit: cover;
+    margin: 10px 10px;
+    
+}
+
+.month-images p{
+    margin: 0;
+}
+
+.locations{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px auto;
+  background-image: url("/resources/images/img-locations-background.jpg");
+  height: 500px;
+  max-width: 1200px;
+}
+
+.squares{
+  display: flex;
+  justify-content: center;
+}
+
+.locations-squares{
+  background-color: black;
+  opacity: 0.9;
+  width: 300px;
+  height: 300px;
+  margin: 15px 40px;
+}
+
+footer{
+  max-height: 200px;
+}
+
+.copyright{
+  text-align: left;
+  margin-left: 20px;
 }
